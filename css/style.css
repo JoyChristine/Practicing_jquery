@@ -1,3 +1,16 @@
-img{
+.walrus-showing , .slide-show {
     display: none;
+}
+.clickable{
+    cursor: pointer;
+    color: #0088cc;
+}
+    
+.clickable:hover {
+    color: blueviolet;
+
+}
+.slide-toggle{
+    cursor: pointer;
+    color: rgb(5, 121, 40);
 }
