@@ -1,16 +1,14 @@
-.walrus-showing , .slide-show {
+*{
+    cursor: pointer;
+}
+.walrus-showing , .slide-show , .fade-show{
     display: none;
 }
-.clickable{
-    cursor: pointer;
+.clickable, .slide-toggle, .fade-color{
     color: #0088cc;
 }
-    
-.clickable:hover {
+
+.clickable:hover, .slide-toggle:hover , .fade:hover {
     color: blueviolet;
 
-}
-.slide-toggle{
-    cursor: pointer;
-    color: rgb(5, 121, 40);
 }
