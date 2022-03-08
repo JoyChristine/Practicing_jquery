@@ -1,18 +1,26 @@
-$(document).ready(function() {
-    $(".clickable").click(function() {
-      $(".walrus-showing").toggle();
-      $(".walrus-hidden").toggle();
-    });
-});
-// slide-toggle
-$(document).ready(function() {
-    $(".slide-toggle").click(function() {
-      $(".slide-show").slideToggle();
-      $(".slide-end").slideToggle();
-    });
-});
+// $(document).ready(function() {
+//     $(".clickable").click(function() {
+//       $(".walrus-showing").toggle();
+//       $(".walrus-hidden").toggle();
+//     });
+// });
+// // slide-toggle
+// $(document).ready(function() {
+//     $(".slide-toggle").click(function() {
+//       $(".slide-show").slideToggle();
+//       $(".slide-hidden").slideToggle();
+//     });
+// });
 
-//
+//fade in -fadeout
+$(document).ready(function() {
+    $(".fade-color").click(function() {
+        $(".fade-show").fadeIn("slow");
+    });
+     $(".fade-color").click(function() {
+        $(".fade-hidden").fadeOut(400);
+    });
+});
 
 
 
