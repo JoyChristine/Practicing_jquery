@@ -1,8 +1,19 @@
 $(document).ready(function() {
-    $("p").click(function() {
-      $("img").show();
+    $(".clickable").click(function() {
+      $(".walrus-showing").toggle();
+      $(".walrus-hidden").toggle();
     });
 });
+// slide-toggle
+$(document).ready(function() {
+    $(".slide-toggle").click(function() {
+      $(".slide-show").slideToggle();
+      $(".slide-end").slideToggle();
+    });
+});
+
+//
+
 
 
 // jQuery('h1').click(function(){
